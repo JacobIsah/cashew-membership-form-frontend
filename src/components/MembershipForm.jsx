@@ -198,11 +198,7 @@ const MembershipForm = () => {
   ];
 
   return (
-    <Container maxWidth="md" sx={{ mt: 4 }}>
-      <Typography variant="h4" align="center" gutterBottom>
-        Membership Registration
-      </Typography>
-
+    <Container maxWidth="md" >
       {sections.map((section, index) => (
         <Accordion key={index}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>

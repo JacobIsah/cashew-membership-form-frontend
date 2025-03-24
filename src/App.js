@@ -1,7 +1,7 @@
 import React from "react";
 
 import MembershipForm from "./components/MembershipForm";
-
+import HeroPage from "./components/HeroPage";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const theme = createTheme({
@@ -20,6 +20,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
+        <HeroPage />
         <MembershipForm />
       </div>
     </ThemeProvider>
